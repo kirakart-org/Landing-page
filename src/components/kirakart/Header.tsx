@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Logo } from "./Logo";
+import { WaitlistModal } from "./WaitlistModal";
 
 const nav = [
   { label: "How it works", href: "#how" },
@@ -50,12 +51,11 @@ export function Header() {
           >
             Log in
           </a>
-          <a
-            href="#waitlist"
-            className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5"
-          >
-            Join Waitlist
-          </a>
+          <WaitlistModal>
+            <button className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5">
+              Join Waitlist
+            </button>
+          </WaitlistModal>
         </div>
         <button
           className="grid h-9 w-9 place-items-center rounded-full border border-hairline bg-surface md:hidden"
@@ -86,12 +86,11 @@ export function Header() {
               >
                 Log in
               </a>
-              <a
-                href="#waitlist"
-                className="flex-1 rounded-full bg-brand px-4 py-2.5 text-center text-sm font-semibold text-brand-foreground"
-              >
-                Join Waitlist
-              </a>
+              <WaitlistModal>
+                <button className="flex-1 rounded-full bg-brand px-4 py-2.5 text-center text-sm font-semibold text-brand-foreground">
+                  Join Waitlist
+                </button>
+              </WaitlistModal>
             </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import { WaitlistModal } from "./WaitlistModal";
+
 export function FinalCTA() {
   return (
     <section id="waitlist" className="px-5 py-16 sm:px-8 sm:py-24">
@@ -21,18 +23,16 @@ export function FinalCTA() {
             following.
           </h2>
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a
-              href="#shopper"
-              className="w-full rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-sm font-semibold text-background backdrop-blur transition-colors hover:bg-white/10 sm:w-auto"
-            >
-              Join as a Shopper
-            </a>
-            <a
-              href="#owner"
-              className="w-full rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5 sm:w-auto"
-            >
-              List Your Shop
-            </a>
+            <WaitlistModal initialPurpose="shopper">
+              <button className="w-full rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-sm font-semibold text-background backdrop-blur transition-colors hover:bg-white/10 sm:w-auto">
+                Join as a Shopper
+              </button>
+            </WaitlistModal>
+            <WaitlistModal initialPurpose="shop_owner">
+              <button className="w-full rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5 sm:w-auto">
+                List Your Shop
+              </button>
+            </WaitlistModal>
           </div>
           <p className="mt-5 text-xs text-background/70">
             Free during launch. No credit card required.

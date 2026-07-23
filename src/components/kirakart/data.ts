@@ -29,15 +29,15 @@ export const pains: Pain[] = [
   },
   {
     icon: MessageSquareOff,
-    title: "Your shop deserves a real storefront",
+    title: "Regulars, but no record of it",
     description:
-      "Shop owners rely on manual messages because there’s no catalog, no order tracking, no discovery radius — just DMs and screenshots pretending to be a storefront.",
+      "A shop's regulars exist in the owner's memory, not anywhere real. There's no easy way to notify them, understand who they are, or bring them back when something new arrives.",
   },
   {
     icon: Boxes,
-    title: "Big marketplaces strip the place away",
+    title: "Marketplaces flatten every shop into a listing",
     description:
-      "Generic commerce listings erase what makes a local shop feel local — no personality, no story, no relationship with the buyer, just SKUs competing on price.",
+      "Amazon-style marketplaces strip away what makes a shop feel like a place — no story, no relationship, just SKUs competing on price and delivery speed.",
   },
 ];
 
