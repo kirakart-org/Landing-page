@@ -10,14 +10,14 @@ export function Solution() {
     <Section
       id="solution"
       eyebrow="The Kirakart Way"
-      title={<>What if your neighborhood had a feed?</>}
+      title={<>What if your neighborhood had a Corner?</>}
       intro={
         <>
-          Kirakart gives every shop a channel — a mix of an Instagram profile
-          and a storefront. Shop owners post like they already do. Shoppers
-          follow, like, get notified, and buy — all without leaving the feed.
-          Discovery is proximity-first: what&apos;s near you surfaces first, the
-          way it should.
+          Kirakart gives every shop a channel — a modern storefront Corner that
+          keeps the relationship and the story intact. Shop owners post like they
+          already do. Shoppers become regulars, like, get notified, and buy — all
+          without leaving the Corner. Discovery is proximity-first: what&apos;s
+          near you surfaces first, the way it should.
         </>
       }
     >
@@ -52,7 +52,7 @@ export function Solution() {
                 </div>
                 <div>
                   <div className="font-semibold text-foreground">4.2k</div>
-                  <div className="text-xs text-muted-foreground">Followers</div>
+                  <div className="text-xs text-muted-foreground">Regulars</div>
                 </div>
                 <div>
                   <div className="font-semibold text-foreground">4.9★</div>
@@ -60,7 +60,7 @@ export function Solution() {
                 </div>
               </div>
               <button className="rounded-full bg-brand px-4 py-1.5 text-xs font-semibold text-brand-foreground">
-                Follow
+                Become a Regular
               </button>
             </div>
             <p className="mt-4 px-5 text-sm text-muted-foreground">
@@ -76,11 +76,11 @@ export function Solution() {
             </div>
           </div>
           <div className="mt-4 text-center text-xs font-medium tracking-wide text-muted-foreground uppercase">
-            A shop channel
+            A storefront Corner
           </div>
         </div>
 
-        {/* Purchasable feed post */}
+        {/* Purchasable Corner post */}
         <div className="flex flex-col items-center">
           <PhoneMock
             image={post2}
@@ -94,7 +94,7 @@ export function Solution() {
           />
           <div className="mt-4 flex items-center gap-3 text-xs font-medium tracking-wide text-muted-foreground uppercase">
             <Heart className="h-3.5 w-3.5 text-brand" />
-            A purchasable feed post
+            A purchasable Corner post
             <MessageCircle className="h-3.5 w-3.5 text-social" />
           </div>
         </div>

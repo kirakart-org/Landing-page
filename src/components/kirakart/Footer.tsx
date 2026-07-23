@@ -22,7 +22,7 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-            The feed for your neighborhood.
+            Your neighborhood Corner, with real shops and real regulars.
           </p>
         </div>
         {cols.map((c) => (
@@ -49,9 +49,9 @@ export function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:px-8">
           <div>© 2026 Kirakart. Made for neighborhoods, not algorithms.</div>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-foreground">Instagram</a>
-            <a href="#" className="hover:text-foreground">Twitter</a>
-            <a href="#" className="hover:text-foreground">LinkedIn</a>
+            <a href="#" className="hover:text-foreground">Community</a>
+            <a href="#" className="hover:text-foreground">Updates</a>
+            <a href="#" className="hover:text-foreground">Help</a>
           </div>
         </div>
       </div>

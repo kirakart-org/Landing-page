@@ -30,7 +30,7 @@ export function Comparison() {
     <Section
       id="pricing"
       eyebrow="Why Kirakart"
-      title={<>Not another marketplace. Not just Instagram.</>}
+      title={<>What changes when you move from managing orders over DM to using Kirakart?</>}
     >
       {/* Desktop table */}
       <div className="hidden overflow-hidden rounded-3xl border border-hairline bg-surface shadow-card lg:block">
@@ -50,18 +50,18 @@ export function Comparison() {
               </th>
               <th className="px-6 py-5">
                 <div className="font-display text-lg text-foreground">
-                  Instagram / WhatsApp
+                  DM workflow
                 </div>
                 <div className="text-xs font-normal text-muted-foreground">
-                  Social, not commerce
+                  Manual messages, no storefront
                 </div>
               </th>
               <th className="px-6 py-5">
                 <div className="font-display text-lg text-foreground">
-                  Marketplaces
+                  Large marketplace
                 </div>
                 <div className="text-xs font-normal text-muted-foreground">
-                  Amazon / Flipkart-style
+                  SKU-first, no local place
                 </div>
               </th>
             </tr>
@@ -109,13 +109,13 @@ export function Comparison() {
               </div>
               <div>
                 <div className="mb-2 text-[11px] font-medium tracking-wide text-muted-foreground uppercase">
-                  IG / WA
+                  DM workflow
                 </div>
                 <Cell value={row.social} />
               </div>
               <div>
                 <div className="mb-2 text-[11px] font-medium tracking-wide text-muted-foreground uppercase">
-                  Marketplace
+                  Large marketplace
                 </div>
                 <Cell value={row.marketplace} />
               </div>

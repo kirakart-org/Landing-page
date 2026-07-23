@@ -34,14 +34,14 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-[2.75rem] leading-[1.02] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            Every local shop deserves a following.
+            Every shop has its regulars. Now every neighborhood has its Corner.
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Kirakart turns nearby stores into shop channels you can follow,
-            scroll, and shop from — like a social feed, but every post can be
-            bought. Discover what&apos;s actually happening around you, not what
-            a marketplace algorithm decided to show you.
+            Kirakart turns nearby stores into storefront Corners you can become a
+            regular at, scroll, and shop from — more than a social stream, this
+            is your local Corner where every post can be bought. Explore what&apos;s
+            actually happening around you, not what an algorithm decided to show you.
           </p>
 
           <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
@@ -49,7 +49,7 @@ export function Hero() {
               href="#waitlist"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-brand px-5 py-3.5 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5"
             >
-              Explore shops near you
+              Explore the Corner
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
@@ -81,7 +81,7 @@ export function Hero() {
             <span className="text-brand">●</span> 24 shops within 1km
           </div>
           <div className="absolute -right-2 bottom-6 hidden rounded-2xl border border-hairline bg-background/90 px-3 py-2 text-xs font-medium shadow-lift backdrop-blur sm:block">
-            <span className="text-social">●</span> 3 new drops nearby
+            <span className="text-social">●</span> 3 new corners nearby
           </div>
         </div>
       </div>

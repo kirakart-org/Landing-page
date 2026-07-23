@@ -35,7 +35,7 @@ export function PhoneMock({
           <span>9:41</span>
           <span className="flex items-center gap-1">
             <span className="inline-block h-2 w-2 rounded-full bg-brand" />
-            Feed
+            Corner
           </span>
         </div>
 
@@ -56,7 +56,7 @@ export function PhoneMock({
             </div>
           </div>
           <button className="rounded-full bg-brand px-3 py-1 text-[11px] font-semibold text-brand-foreground">
-            Follow
+            Become a Regular
           </button>
         </div>
 

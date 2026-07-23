@@ -15,7 +15,7 @@ const navItems = [
   { icon: LayoutDashboard, label: "Overview", active: false },
   { icon: FileText, label: "Posts", active: false },
   { icon: Package, label: "Orders", active: true },
-  { icon: Users, label: "Followers", active: false },
+  { icon: Users, label: "Regulars", active: false },
   { icon: LineIcon, label: "Insights", active: false },
   { icon: Settings, label: "Settings", active: false },
 ];
@@ -37,8 +37,8 @@ export function DashboardPreview() {
       intro={
         <>
           No spreadsheets, no juggling three apps. See what&apos;s selling, who&apos;s
-          following, and what to post next — all in one dashboard built for shop
-          owners, not enterprise sellers.
+          becoming regulars, and what to post next — all in one dashboard built for
+          shop owners, not enterprise sellers.
         </>
       }
     >
@@ -82,9 +82,9 @@ export function DashboardPreview() {
             <div className="p-5 sm:p-7">
               {/* metric cards */}
               <div className="grid gap-3 sm:grid-cols-3">
-                <MetricCard label="New followers this week" value="+142" trend="+18%" tone="brand" />
+                <MetricCard label="New regulars this week" value="+142" trend="+18%" tone="brand" />
                 <MetricCard label="Orders pending" value="18" trend="4 new" tone="social" />
-                <MetricCard label="Feed reach · 7d" value="12.4k" trend="+9%" tone="neutral" />
+                <MetricCard label="Corner reach · 7d" value="12.4k" trend="+9%" tone="neutral" />
               </div>
 
               {/* chart */}
@@ -92,7 +92,7 @@ export function DashboardPreview() {
                 <div className="mb-4 flex items-center justify-between">
                   <div>
                     <div className="text-sm font-semibold text-foreground">
-                      Follower growth
+                      Regular growth
                     </div>
                     <div className="text-xs text-muted-foreground">
                       Last 14 days

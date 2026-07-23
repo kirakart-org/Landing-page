@@ -29,31 +29,31 @@ export const pains: Pain[] = [
   },
   {
     icon: MessageSquareOff,
-    title: "Instagram wasn't built to sell",
+    title: "Your shop deserves a real storefront",
     description:
-      "Shop owners post on Instagram/WhatsApp because it's free, but there's no catalog, no order tracking, no discovery radius — just DMs and screenshots doing the job of a storefront.",
+      "Shop owners rely on manual messages because there’s no catalog, no order tracking, no discovery radius — just DMs and screenshots pretending to be a storefront.",
   },
   {
     icon: Boxes,
-    title: "Marketplaces flatten identity",
+    title: "Big marketplaces strip the place away",
     description:
-      "Amazon and Flipkart-style listings strip away everything that makes a local shop feel local — no personality, no story, no relationship with the buyer, just SKUs competing on price.",
+      "Generic commerce listings erase what makes a local shop feel local — no personality, no story, no relationship with the buyer, just SKUs competing on price.",
   },
 ];
 
 export const steps: Step[] = [
   {
     number: "01",
-    title: "Discover",
+    title: "Explore the Corner",
     description:
-      "Open the feed and see shop posts ranked by distance, not ads. Filter by category — food, fashion, grocery, services.",
+      "Open your Corner and see nearby shop posts ranked by distance, not ads. Filter by category — food, fashion, grocery, services.",
     icon: Compass,
   },
   {
     number: "02",
-    title: "Follow & Engage",
+    title: "Become a Regular",
     description:
-      "Follow shops you like, like and comment on posts, get notified when something new drops nearby.",
+      "Become a regular at shops you care about, like posts, and get notified when something new opens up nearby.",
     icon: Users,
   },
   {
@@ -68,21 +68,21 @@ export const steps: Step[] = [
 export const features: Feature[] = [
   {
     icon: LayoutGrid,
-    title: "Shop Channels",
+    title: "Storefront Corners",
     description:
-      "An Instagram-style profile for every shop — bio, catalog, story-style updates.",
+      "A dedicated Corner for every shop — bio, catalog, and story-style updates.",
   },
   {
     icon: Rss,
-    title: "Proximity Feed",
+    title: "Proximity Corner",
     description:
       "Posts ranked by distance and relevance, not paid placement.",
   },
   {
     icon: Heart,
-    title: "Follow, Like, Notify",
+    title: "Regulars, Likes, Alerts",
     description:
-      "Full social loop — follow shops, like posts, get pinged on new drops.",
+      "Full local loop — become a regular, like posts, and get alerted when a shop opens up.",
   },
   {
     icon: BarChart3,
@@ -124,7 +124,7 @@ export const comparison: ComparisonRow[] = [
     marketplace: "no",
   },
   {
-    label: "Follower / community growth",
+    label: "Regular / community growth",
     kirakart: "yes",
     social: "yes, no commerce",
     marketplace: "no",
@@ -140,7 +140,7 @@ export const comparison: ComparisonRow[] = [
 export const stats: Stat[] = [
   { value: "500+", label: "Shops onboarded" },
   { value: "12", label: "Neighborhoods" },
-  { value: "40k+", label: "Feed interactions" },
+  { value: "40k+", label: "Corner interactions" },
   { value: "0%", label: "Commission at launch" },
 ];
 

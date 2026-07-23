@@ -3,15 +3,15 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Check, ShoppingBag, Store } from "lucide-react";
 
 const shoppers = [
-  "Proximity-first feed",
-  "Follow your favorite local spots",
-  "Real-time notifications on new drops",
+  "Proximity-first Corner",
+  "Become a regular at local spots",
+  "Real-time notifications when a shop opens up",
   "No more \"wonder if that shop is even open\"",
 ];
 
 const owners = [
   "Post in seconds, no design skills needed",
-  "Built-in follower & order dashboard",
+  "Built-in regulars & order dashboard",
   "Zero-commission launch pricing",
   "Reach people within walking distance who are actually ready to buy",
 ];
