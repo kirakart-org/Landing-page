@@ -38,10 +38,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Kirakart turns nearby stores into storefront Corners you can become a
-            regular at, scroll, and shop from — more than a social stream, this
-            is your local Corner where every post can be bought. Explore what&apos;s
-            actually happening around you, not what an algorithm decided to show you.
+            Discover, follow, and shop from stores near you — ranked by distance, not algorithms.
           </p>
 
           <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">

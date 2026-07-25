@@ -45,12 +45,12 @@ export function Header() {
           ))}
         </nav>
         <div className="hidden items-center gap-2 md:flex">
-          <a
+          {/* <a
             href="#login"
             className="rounded-full px-3 py-2 text-sm font-medium text-foreground/80 hover:text-foreground"
           >
             Log in
-          </a>
+          </a> */}
           <WaitlistModal>
             <button className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5">
               Join Waitlist
@@ -80,12 +80,12 @@ export function Header() {
               </a>
             ))}
             <div className="mt-2 flex gap-2 pt-2">
-              <a
+              {/* <a
                 href="#login"
                 className="flex-1 rounded-full border border-hairline px-4 py-2.5 text-center text-sm font-medium"
               >
                 Log in
-              </a>
+              </a> */}
               <WaitlistModal>
                 <button className="flex-1 rounded-full bg-brand px-4 py-2.5 text-center text-sm font-semibold text-brand-foreground">
                   Join Waitlist

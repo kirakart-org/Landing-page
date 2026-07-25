@@ -81,7 +81,7 @@ export function WaitlistModal({
     setError(undefined);
 
     try {
-      const response = await fetch("/early-access", {
+      const response = await fetch("https://landingpage-backend-xlht.onrender.com/early-access", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

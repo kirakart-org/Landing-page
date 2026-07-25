@@ -41,6 +41,7 @@ export function DashboardPreview() {
           shop owners, not enterprise sellers.
         </>
       }
+      className="px-4 py-10 sm:px-8 sm:py-28"
     >
       <AnimatedGroup>
         <div className="relative rounded-[2rem] border border-hairline bg-surface p-3 shadow-lift sm:p-4">
@@ -79,7 +80,7 @@ export function DashboardPreview() {
             </aside>
 
             {/* main */}
-            <div className="p-5 sm:p-7">
+            <div className="p-4 sm:p-7">
               {/* metric cards */}
               <div className="grid gap-3 sm:grid-cols-3">
                 <MetricCard label="New regulars this week" value="+142" trend="+18%" tone="brand" />
@@ -88,7 +89,7 @@ export function DashboardPreview() {
               </div>
 
               {/* chart */}
-              <div className="mt-5 rounded-2xl border border-hairline bg-surface p-5">
+              <div className="mt-5 rounded-2xl border border-hairline bg-surface p-4 sm:p-5">
                 <div className="mb-4 flex items-center justify-between">
                   <div>
                     <div className="text-sm font-semibold text-foreground">
@@ -107,7 +108,7 @@ export function DashboardPreview() {
 
               {/* orders */}
               <div className="mt-5 rounded-2xl border border-hairline bg-surface">
-                <div className="flex items-center justify-between px-5 py-4">
+                <div className="flex items-center justify-between px-4 py-3">
                   <div className="text-sm font-semibold text-foreground">
                     Recent orders
                   </div>
@@ -119,7 +120,7 @@ export function DashboardPreview() {
                   {orders.map((o) => (
                     <div
                       key={o.id}
-                      className="flex items-center gap-3 px-5 py-3 text-sm"
+                      className="flex items-center gap-3 px-4 py-3 text-sm"
                     >
                       <span className="w-14 shrink-0 font-mono text-xs text-muted-foreground">
                         {o.id}
@@ -170,7 +171,7 @@ function MetricCard({
         ? "text-social"
         : "text-muted-foreground";
   return (
-    <div className="rounded-2xl border border-hairline bg-surface p-4">
+    <div className="rounded-2xl border border-hairline bg-surface p-3 sm:p-4">
       <div className="text-xs text-muted-foreground">{label}</div>
       <div className="mt-2 flex items-end justify-between">
         <div className="font-display text-3xl leading-none text-foreground">
