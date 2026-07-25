@@ -41,11 +41,11 @@ export function DashboardPreview() {
           shop owners, not enterprise sellers.
         </>
       }
-      className="px-4 py-10 sm:px-8 sm:py-28"
+      className="px-3 py-10 sm:px-8 sm:py-28"
     >
       <AnimatedGroup>
-        <div className="relative rounded-[2rem] border border-hairline bg-surface p-3 shadow-lift sm:p-4">
-          <div className="grid overflow-hidden rounded-2xl border border-hairline bg-surface-elevated md:grid-cols-[220px_1fr]">
+        <div className="relative max-w-full overflow-hidden rounded-[2rem] border border-hairline bg-surface p-2.5 shadow-lift sm:p-4">
+          <div className="grid min-w-0 overflow-hidden rounded-2xl border border-hairline bg-surface-elevated md:grid-cols-[220px_1fr]">
             {/* sidebar */}
             <aside className="hidden border-r border-hairline bg-surface p-4 md:block">
               <div className="mb-6 flex items-center gap-2 px-2">
@@ -80,7 +80,7 @@ export function DashboardPreview() {
             </aside>
 
             {/* main */}
-            <div className="p-4 sm:p-7">
+            <div className="min-w-0 overflow-hidden p-3.5 sm:p-7">
               {/* metric cards */}
               <div className="grid gap-3 sm:grid-cols-3">
                 <MetricCard label="New regulars this week" value="+142" trend="+18%" tone="brand" />
@@ -89,8 +89,8 @@ export function DashboardPreview() {
               </div>
 
               {/* chart */}
-              <div className="mt-5 rounded-2xl border border-hairline bg-surface p-4 sm:p-5">
-                <div className="mb-4 flex items-center justify-between">
+              <div className="mt-4 sm:mt-5 min-w-0 overflow-hidden rounded-2xl border border-hairline bg-surface p-3.5 sm:p-5">
+                <div className="mb-4 flex items-center justify-between gap-2">
                   <div>
                     <div className="text-sm font-semibold text-foreground">
                       Regular growth
@@ -99,16 +99,18 @@ export function DashboardPreview() {
                       Last 14 days
                     </div>
                   </div>
-                  <div className="flex items-center gap-1 rounded-full bg-brand/10 px-2 py-1 text-xs font-semibold text-brand">
+                  <div className="flex shrink-0 items-center gap-1 rounded-full bg-brand/10 px-2 py-1 text-xs font-semibold text-brand">
                     <TrendingUp className="h-3 w-3" /> +32%
                   </div>
                 </div>
-                <Sparkline points={chartPoints} />
+                <div className="w-full min-w-0 overflow-hidden">
+                  <Sparkline points={chartPoints} />
+                </div>
               </div>
 
               {/* orders */}
-              <div className="mt-5 rounded-2xl border border-hairline bg-surface">
-                <div className="flex items-center justify-between px-4 py-3">
+              <div className="mt-4 sm:mt-5 min-w-0 overflow-hidden rounded-2xl border border-hairline bg-surface">
+                <div className="flex items-center justify-between px-3.5 py-3 sm:px-4">
                   <div className="text-sm font-semibold text-foreground">
                     Recent orders
                   </div>
@@ -120,16 +122,16 @@ export function DashboardPreview() {
                   {orders.map((o) => (
                     <div
                       key={o.id}
-                      className="flex items-center gap-3 px-4 py-3 text-sm"
+                      className="flex items-center gap-2 sm:gap-3 px-3 py-2.5 sm:px-4 sm:py-3 text-sm"
                     >
-                      <span className="w-14 shrink-0 font-mono text-xs text-muted-foreground">
+                      <span className="w-12 sm:w-14 shrink-0 font-mono text-xs text-muted-foreground">
                         {o.id}
                       </span>
                       <div className="min-w-0 flex-1">
-                        <div className="truncate font-medium text-foreground">
+                        <div className="truncate font-medium text-foreground text-xs sm:text-sm">
                           {o.customer}
                         </div>
-                        <div className="truncate text-xs text-muted-foreground">
+                        <div className="truncate text-[11px] sm:text-xs text-muted-foreground">
                           {o.item}
                         </div>
                       </div>
@@ -138,7 +140,7 @@ export function DashboardPreview() {
                       >
                         {o.status}
                       </span>
-                      <span className="w-16 shrink-0 text-right text-sm font-semibold text-foreground">
+                      <span className="w-14 sm:w-16 shrink-0 text-right text-xs sm:text-sm font-semibold text-foreground">
                         {o.amount}
                       </span>
                     </div>
@@ -171,13 +173,13 @@ function MetricCard({
         ? "text-social"
         : "text-muted-foreground";
   return (
-    <div className="rounded-2xl border border-hairline bg-surface p-3 sm:p-4">
-      <div className="text-xs text-muted-foreground">{label}</div>
-      <div className="mt-2 flex items-end justify-between">
-        <div className="font-display text-3xl leading-none text-foreground">
+    <div className="min-w-0 rounded-2xl border border-hairline bg-surface p-3 sm:p-4">
+      <div className="truncate text-xs text-muted-foreground">{label}</div>
+      <div className="mt-2 flex items-end justify-between gap-1">
+        <div className="font-display text-2xl sm:text-3xl leading-none text-foreground">
           {value}
         </div>
-        <div className={`text-xs font-semibold ${trendColor}`}>{trend}</div>
+        <div className={`shrink-0 text-xs font-semibold ${trendColor}`}>{trend}</div>
       </div>
     </div>
   );
