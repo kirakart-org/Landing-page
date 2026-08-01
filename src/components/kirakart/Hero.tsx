@@ -34,11 +34,11 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-[2.75rem] leading-[1.02] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            Every shop has its regulars. Now every neighborhood has its Corner.
+            The Social Commerce Platform for Your Neighborhood 
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Discover, follow, and shop from stores near you — ranked by distance, not algorithms.
+            Discover trusted local shops, follow your favorites, and shop directly from the people you already know all in one place.
           </p>
 
           <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
@@ -46,7 +46,7 @@ export function Hero() {
               href="#waitlist"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-brand px-5 py-3.5 text-sm font-semibold text-brand-foreground shadow-brand transition-transform hover:-translate-y-0.5"
             >
-              Explore the Corner
+              Explore Nearby Shops
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
@@ -78,7 +78,7 @@ export function Hero() {
             <span className="text-brand">●</span> 24 shops within 1km
           </div>
           <div className="absolute -right-2 bottom-6 hidden rounded-2xl border border-hairline bg-background/90 px-3 py-2 text-xs font-medium shadow-lift backdrop-blur sm:block">
-            <span className="text-social">●</span> 3 new corners nearby
+            <span className="text-social">●</span> Follow Your Favorites
           </div>
         </div>
       </div>

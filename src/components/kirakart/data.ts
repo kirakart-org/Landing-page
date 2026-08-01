@@ -23,44 +23,44 @@ import type {
 export const pains: Pain[] = [
   {
     icon: MapPin,
-    title: "Invisible to your own neighborhood",
+    title: "People don't know nearby shops exist",
     description:
-      "Great local shops get discovered by luck — a friend's recommendation, a passerby glance. There's no structured way for people 500m away to even know a shop exists.",
+      "Thousands of great local businesses are just minutes away, but customers rarely discover them online. Most people only find them through word of mouth.",
   },
   {
     icon: MessageSquareOff,
-    title: "Regulars, but no record of it",
+    title: "Shop owners can't stay connected with customers",
     description:
-      "A shop's regulars exist in the owner's memory, not anywhere real. There's no easy way to notify them, understand who they are, or bring them back when something new arrives.",
+      "Most local businesses rely on WhatsApp, phone calls, or memory. They have no easy way to notify loyal customers about new arrivals, offers, or restocks.",
   },
   {
     icon: Boxes,
-    title: "Marketplaces flatten every shop into a listing",
+    title: "Every marketplace looks the same",
     description:
-      "Amazon-style marketplaces strip away what makes a shop feel like a place — no story, no relationship, just SKUs competing on price and delivery speed.",
+      "Traditional marketplaces focus on products—not people. Local shops lose their identity, relationships, and loyal customers while competing only on price.",
   },
 ];
 
 export const steps: Step[] = [
   {
     number: "01",
-    title: "Explore the Corner",
+    title: "Discover Nearby Shops",
     description:
-      "Open your Corner and see nearby shop posts ranked by distance, not ads. Filter by category — food, fashion, grocery, services.",
+      "Browse trusted local stores around you and explore their latest products, offers, and updates.",
     icon: Compass,
   },
   {
     number: "02",
-    title: "Become a Regular",
+    title: "Follow Your Favorite Shops",
     description:
-      "Become a regular at shops you care about, like posts, and get notified when something new opens up nearby.",
+      "Follow the stores you love to receive updates whenever they post new products or special offers.",
     icon: Users,
   },
   {
     number: "03",
     title: "Buy Directly",
     description:
-      "Tap a post to see price, stock, and order — no redirect, no separate app, no DM back-and-forth.",
+      "Order directly from the shop in just a few taps. No endless searching. No middlemen.",
     icon: ShoppingBag,
   },
 ];
@@ -68,21 +68,21 @@ export const steps: Step[] = [
 export const features: Feature[] = [
   {
     icon: LayoutGrid,
-    title: "Storefront Corners",
+    title: "Digital Storefront",
     description:
-      "A dedicated Corner for every shop — bio, catalog, and story-style updates.",
+      "Create your own shop profile with products, business information, and updates—all in one place.",
   },
   {
     icon: Rss,
-    title: "Proximity Corner",
+    title: "Nearby Discovery",
     description:
-      "Posts ranked by distance and relevance, not paid placement.",
+      "Help nearby customers discover your shop based on location instead of paid advertisements.",
   },
   {
     icon: Heart,
-    title: "Regulars, Likes, Alerts",
+    title: "Build Loyal Customers",
     description:
-      "Full local loop — become a regular, like posts, and get alerted when a shop opens up.",
+      "Customers can follow your shop, like your posts, and receive updates whenever you add something new.",
   },
   {
     icon: BarChart3,
@@ -92,45 +92,45 @@ export const features: Feature[] = [
   },
   {
     icon: MapPin,
-    title: "Radius Discovery",
+    title: "Local Search",
     description:
-      "See what's sellable within 500m, 2km, or a custom radius.",
+      "Customers can discover shops within their preferred distance, making local shopping faster and easier.",
   },
   {
     icon: ShieldCheck,
     title: "Verified Local Shops",
     description:
-      "Every shop channel is verified against a real storefront, no fake sellers.",
+      "Every business is verified, so customers know they are shopping from real local stores they can trust.",
   },
 ];
 
 export const comparison: ComparisonRow[] = [
   {
-    label: "Built for local discovery",
+    label: "Customers discover nearby shops",
     kirakart: "yes",
     social: "no",
     marketplace: "no",
   },
   {
-    label: "Native checkout & order tracking",
+    label: "Built-in ordering & order tracking",
     kirakart: "yes",
     social: "DM-based",
     marketplace: "yes",
   },
   {
-    label: "Shop retains identity & story",
+    label: "Your brand stays front and center",
     kirakart: "yes",
     social: "yes",
     marketplace: "no",
   },
   {
-    label: "Regular / community growth",
+    label: "Build loyal customers & followers",
     kirakart: "yes",
     social: "yes, no commerce",
     marketplace: "no",
   },
   {
-    label: "Commission-free launch pricing",
+    label: "Affordable pricing for local businesses",
     kirakart: "yes",
     social: "—",
     marketplace: "no",

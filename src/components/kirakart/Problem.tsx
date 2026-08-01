@@ -7,7 +7,7 @@ export function Problem() {
     <Section
       id="problem"
       eyebrow="The Problem"
-      title={<>Good shops have regulars. The internet only gave them a feed.</>}
+      title={<>Local shopping is broken. Here's why.</>}
     >
       <AnimatedGroup className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {pains.map((p) => {
@@ -32,8 +32,7 @@ export function Problem() {
       </AnimatedGroup>
 
       <p className="mx-auto mt-14 max-w-3xl text-center font-display text-2xl leading-snug text-foreground sm:text-3xl">
-        The result: neighborhoods feel anonymous again, and shop owners keep
-        rebuilding their regulars with messages instead of storefronts.
+        The result? Customers struggle to discover trusted local businesses, and shop owners lose opportunities to build lasting relationships.
       </p>
     </Section>
   );

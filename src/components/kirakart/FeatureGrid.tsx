@@ -6,8 +6,8 @@ export function FeatureGrid() {
   return (
     <Section
       id="features"
-      eyebrow="What's Inside"
-      title={<>Everything a shop channel needs.</>}
+      eyebrow="WHY PEOPLE LOVE KIRAKART "
+      title={<>Everything You Need to Grow Your Local Business.</>}
     >
       <AnimatedGroup className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((f) => {

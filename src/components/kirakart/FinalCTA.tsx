@@ -19,13 +19,12 @@ export function FinalCTA() {
 
         <div className="relative mx-auto max-w-3xl text-center">
           <h2 className="font-display text-4xl leading-[1.05] tracking-tight sm:text-6xl">
-            Your neighborhood is already scrolling. Give it something worth
-            following.
+            Bring Your Local Business Online.Reach More Customers. Build Loyal Regulars.
           </h2>
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <WaitlistModal initialPurpose="shopper">
               <button className="w-full rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-sm font-semibold text-background backdrop-blur transition-colors hover:bg-white/10 sm:w-auto">
-                Join as a Shopper
+                Join the Waitlist
               </button>
             </WaitlistModal>
             <WaitlistModal initialPurpose="shop_owner">
@@ -35,7 +34,7 @@ export function FinalCTA() {
             </WaitlistModal>
           </div>
           <p className="mt-5 text-xs text-background/70">
-            Free during launch. No credit card required.
+            Join today and be among the first to experience the future of local shopping.
           </p>
         </div>
       </div>

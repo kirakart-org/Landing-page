@@ -7,7 +7,7 @@ export function HowItWorks() {
     <Section
       id="how"
       eyebrow="How It Works"
-      title={<>From discovery to doorstep, in three taps.</>}
+      title={<>Shop Local in 3 Simple Steps.</>}
     >
       <div className="relative">
         {/* dashed connector (desktop) */}

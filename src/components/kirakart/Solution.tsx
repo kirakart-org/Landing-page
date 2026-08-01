@@ -9,15 +9,11 @@ export function Solution() {
   return (
     <Section
       id="solution"
-      eyebrow="The Kirakart Way"
-      title={<>What if your neighborhood had a Corner?</>}
+      eyebrow="HOW KIRAKART WORKS"
+      title={<>Your Favorite Local Shops, All in One Place.</>}
       intro={
         <>
-          Kirakart gives every shop a channel — a modern storefront Corner that
-          keeps the relationship and the story intact. Shop owners post like they
-          already do. Shoppers become regulars, like, get notified, and buy — all
-          without leaving the Corner. Discovery is proximity-first: what&apos;s
-          near you surfaces first, the way it should.
+          Think of Kirakart as Instagram for local shopping. Follow nearby stores, see their latest products, and buy directly from businesses you trust.
         </>
       }
     >
@@ -76,7 +72,7 @@ export function Solution() {
             </div>
           </div>
           <div className="mt-4 text-center text-xs font-medium tracking-wide text-muted-foreground uppercase">
-            A storefront Corner
+            Your Digital Storefront
           </div>
         </div>
 
@@ -94,7 +90,7 @@ export function Solution() {
           />
           <div className="mt-4 flex items-center gap-3 text-xs font-medium tracking-wide text-muted-foreground uppercase">
             <Heart className="h-3.5 w-3.5 text-brand" />
-            A purchasable Corner post
+            Shop Directly from the Feed
             <MessageCircle className="h-3.5 w-3.5 text-social" />
           </div>
         </div>

@@ -29,8 +29,8 @@ export function Comparison() {
   return (
     <Section
       id="pricing"
-      eyebrow="Why Kirakart"
-      title={<>What changes when you move from managing orders over DM to using Kirakart?</>}
+      eyebrow="WHY CHOOSE KIRAKART"
+      title={<>Why Local Businesses Choose Kirakart?</>}
     >
       {/* Desktop table */}
       <div className="hidden overflow-hidden rounded-3xl border border-hairline bg-surface shadow-card lg:block">
@@ -38,7 +38,7 @@ export function Comparison() {
           <thead>
             <tr className="border-b border-hairline bg-surface-elevated text-left">
               <th className="px-6 py-5 text-sm font-medium text-muted-foreground">
-                Capability
+                What You Get
               </th>
               <th className="px-6 py-5">
                 <div className="font-display text-lg text-foreground">
@@ -50,7 +50,7 @@ export function Comparison() {
               </th>
               <th className="px-6 py-5">
                 <div className="font-display text-lg text-foreground">
-                  DM workflow
+                  WhatsApp & Instagram
                 </div>
                 <div className="text-xs font-normal text-muted-foreground">
                   Manual messages, no storefront
@@ -58,7 +58,7 @@ export function Comparison() {
               </th>
               <th className="px-6 py-5">
                 <div className="font-display text-lg text-foreground">
-                  Large marketplace
+                  Traditional Marketplaces
                 </div>
                 <div className="text-xs font-normal text-muted-foreground">
                   SKU-first, no local place

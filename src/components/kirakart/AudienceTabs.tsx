@@ -3,10 +3,10 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Check, ShoppingBag, Store } from "lucide-react";
 
 const shoppers = [
-  "Proximity-first Corner",
-  "Become a regular at local spots",
-  "Real-time notifications when a shop opens up",
-  "No more \"wonder if that shop is even open\"",
+  "Discover nearby shops",
+  "Get notified about new arrivals and offers",
+  "Follow your favorite local businesses",
+  "Check store updates before you visit",
 ];
 
 const owners = [
@@ -39,7 +39,7 @@ export function AudienceTabs() {
 
         <TabsContent value="shoppers" className="mt-10">
           <AudienceCard
-            headline="Shop like you scroll."
+            headline="Everything You Need in One Place."
             bullets={shoppers}
             accent="brand"
           />

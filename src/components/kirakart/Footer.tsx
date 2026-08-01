@@ -22,7 +22,7 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-            Your neighborhood Corner, with real shops and real regulars.
+            Discover. Follow. Shop Local.
           </p>
         </div>
         {cols.map((c) => (
@@ -47,7 +47,7 @@ export function Footer() {
       </div>
       <div className="border-t border-hairline">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:px-8">
-          <div>© 2026 Kirakart. Made for neighborhoods, not algorithms.</div>
+          <div>© 2026 Kirakart. Built for local communities, not algorithms.</div>
           <div className="flex gap-4">
             <a href="#" className="hover:text-foreground">Community</a>
             <a href="#" className="hover:text-foreground">Updates</a>
