@@ -175,7 +175,7 @@ export function WaitlistModal({
             longitude: longitude ? parseFloat(longitude) : null,
           };
 
-    const apiUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/early-access";
+    const apiUrl = import.meta.env.VITE_API_URL || "https://landingpage-backend-xlht.onrender.com/early-access";
 
     try {
       const response = await fetch(apiUrl, {
